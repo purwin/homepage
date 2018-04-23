@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mike Purwin – Index</title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style2.css">
+  </head>
+  <body>
+  	<div class="container">
+  		<section class="section--bio">
+	  		<header class="header">
+	  			<div id="id_menu" class="header__icon">
+	  			  <i class="fas fa-bars menu--sm"></i>
+	  			</div>
+	  			<h1 class="header__title"><a href="#"><span class="name--first">Mike</span> <br/><span class="name--last">Purwin</span></a></h1>
+	  		</header>
+	  		<nav id="" class="nav">
+	  			<ul class="nav__list">
+	  			  <li class="nav__item"><a href="#">About</a></li>
+	  			  <li class="nav__item"><a href="#">Ebooks</a></li>
+	  			  <li class="nav__item"><a href="#">Web</a></li>
+	  			  <li class="nav__item"><a href="#">Graphics</a></li>
+	  			  <li class="nav__item"><a href="#">Misc</a></li>
+	  			</ul>
+	  		</nav>
+	  	</section>
+  		<main class="main">
+  			<section class="section--hero">
+  				<div class="hero__img">
+  					<picture class="">
+  					  <source media="(min-width: 640px)" srcset="img/sailing-icons.png, img/sailing-icons-2x.png 2x">
+  					  <img src="img/icon-shark.png" alt="">
+  					</picture>
+  				</div>
+  			</section>
+  			<section class="section--featured">
+          <h2 class="featured__head">Featured Work</h2>
+  				<div class="featured__item">
+            <img src="img/baseball-milwaukee.png" alt="" class="featured__item__img" srcset="img/baseball-milwaukee.png, img/baseball-milwaukee-2x.png 2x" />
+            <h3 class="featured__item__head">Featured Item #1</h3>
+            <p class="featured__item__p">Man braid next level distillery venmo deep v green juice, tousled ethical umami.</p>
+          </div>
+          <div class="featured__item">
+            <img src="img/baseball-stogies.png" alt="" class="featured__item__img" srcset="img/baseball-stogies.png, img/baseball-stogies-2x.png 2x" />
+            <h3 class="featured__item__head">Featured Item #2</h3>
+            <p class="featured__item__p">Offal kitsch narwhal DIY af quinoa bespoke mlkshk iceland PBR&amp;B chillwave prism chartreuse yuccie.</p>
+          </div>
+          <div class="featured__item">
+            <img src="img/baseball-worcester.png" alt="" class="featured__item__img" srcset="img/baseball-worcester.png, img/baseball-worcester-2x.png 2x" />
+            <h3 class="featured__item__head">Featured Item #3</h3>
+            <p class="featured__item__p">Master cleanse schlitz godard portland irony mlkshk. Before they sold out mustache pork belly tbh heirloom wayfarers. Plaid vegan godard kogi.</p>
+          </div>
+  			</section>
+  		</main>
+  		<footer class="footer">
+  			
+  		</footer>
+  	</div>
+  </body>
+  <script type="text/javascript">
+    var menu = document.getElementById("id_menu");
+    var main = document.querySelector("main");
+    var nav = document.querySelector(".nav");
+
+    menu.addEventListener('click', function(e) {
+      nav.classList.toggle("open");
+    }, false);
+    main.addEventListener('click', function(e) {
+      nav.classList.remove("open");
+    }, false);
+  </script>
+</html>
