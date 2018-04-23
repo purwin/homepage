@@ -183,6 +183,7 @@ a {
 
 .featured__head {
 	padding: 1rem;
+	font-weight: 400;
 }
 
 .featured__item__head {
@@ -319,11 +320,15 @@ a {
 
 	.featured__head {
 		width: 100%;
-		font-weight: 400;
+		padding: 1rem 0;
 	}
 
 	.featured__item {
 		width: 32%;
+	}
+
+	.featured__item__head {
+		padding: 0;
 	}
 
 	.featured__item__p {
