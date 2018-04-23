@@ -1,0 +1,10 @@
+.section--thumbnails {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.ebooks__thumbnail {
+	width: 33%;
+	padding: 0 0.5rem;
+}
