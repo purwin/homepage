@@ -1,0 +1,149 @@
+/*
+ *
+ * Media Queries
+ *
+ */
+
+@media screen and (max-width: 480px) {}
+
+@media screen and (min-width: 768px) {
+  /*
+   *
+   * Global
+   *
+   */
+  .container {
+    flex-direction: row;
+  }
+  li:nth-child(odd) a:hover {
+    border-bottom: 2px solid #91c5ec;
+  }
+  li:nth-child(even) a:hover {
+    border-bottom: 2px solid #fecc99;
+  }
+  /*
+   *
+   * Bio
+   *
+   */
+  .section--bio {
+    position: fixed;
+    width: 20%;
+  }
+  /*
+   * Header
+   */
+  .header {
+    margin: 0;
+    padding: 1rem;
+    text-align: left;
+    border: none;
+    align-items: flex-start;
+  }
+  .header__title {
+    text-align: left;
+    margin: 0;
+  }
+  .header__icon {
+    display: none;
+  }
+  .name--last {
+    color: #fecc99;
+  }
+  .header__p {
+    text-align: left;
+    font-size: 1rem;
+  }
+  .bio--first {
+    display: inline;
+  }
+  .bio--second {
+    display: inline;
+  }
+  /*
+   * Nav
+   */
+  .nav {
+    position: relative;
+    padding: 1rem;
+    background-color: inherit;
+    -webkit-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    -webkit-transform-origin: top;
+    -o-transform-origin: top;
+    -ms-transform-origin: top;
+    transform-origin: top;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+  .nav__list {
+    text-align: left;
+    margin: 0;
+  }
+  .nav__item {
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+  /*
+   *
+   * Main
+   *
+   */
+  .main {
+    margin-left: 20%;
+    padding: 1rem;
+  }
+  .main a:hover {
+    border-bottom: 2px solid;
+  }
+  /*
+   * Hero
+   */
+  /*
+   * Featured
+   */
+  .section--featured {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .featured__head {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  .featured__item {
+    width: 32%;
+  }
+  .featured__item__head {
+    padding: 0;
+  }
+  .featured__item__p {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 865px) {
+  .header__title {
+    font-size: 2.25rem;
+    line-height: 2rem;
+  }
+
+  .bio--first {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 865px) and (max-width: 995px) {
+  .header__title {
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+  }
+
+  .bio--first {
+    display: block;
+  }
+}
