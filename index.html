@@ -7,8 +7,8 @@
   <title>Mike Purwin – Index</title>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:200,400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -18,8 +18,13 @@
         <div id="id_menu" class="header__icon">
           <i class="fas fa-bars menu--sm"></i>
         </div>
-        <h1 class="header__title"><a href="#"><span class="name--first">Mike</span><br/><span class="name--last">Purwin</span></a></h1>
-        <p class="header__p"><span class="bio--first">makes </span><span class="bio--second"><span id="id_noun"></span>.</span>
+        <a href="#">
+          <div class="header__logo">
+            <img src="img/logo.svg" class="header__logo__img" alt="Mike Purwin" />
+          </div>
+          <h1 class="header__title"><span class="name--first">Mike</span><br/><span class="name--last">Purwin</span></h1>
+        </a>
+        <p class="header__p"><span class="bio">makes </span><span class="bio"><span id="id_noun"></span>.</span>
         </p>
       </header>
       <nav id="" class="nav">
@@ -77,8 +82,8 @@
       </section>
     </main>
   </div>
-  <script type="text/javascript" src="js/menu.js"></script>
-  <script type="text/javascript" src="js/nouns.js"></script>
+  <script src="js/menu.js"></script>
+  <script src="js/nouns.js"></script>
 </body>
 
 </html>
