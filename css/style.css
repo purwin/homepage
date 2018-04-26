@@ -74,15 +74,14 @@ a {
   flex-direction: column;
 }
 
-.header__title {
-  font-size: 3rem;
-  line-height: 2.5rem;
-  color: #91c5ec;
+.header__logo {
+  display: block;
+  width: 50%;
   margin: auto;
-  -webkit-transition: all .2s ease;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  transition: all .2s ease;
+}
+
+.header__title {
+  display: none;
 }
 
 .header__icon {
@@ -104,11 +103,7 @@ a {
   color: #ff7675;
 }
 
-.bio--first {
-  display: block;
-}
-
-.bio--second {
+.bio {
   display: block;
 }
 

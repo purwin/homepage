@@ -40,9 +40,20 @@
     border: none;
     align-items: flex-start;
   }
+  .header__logo {
+    display: none;
+  }
   .header__title {
+    display: block;
+    font-size: 3rem;
     text-align: left;
     margin: 0;
+    line-height: 2.5rem;
+    color: #91c5ec;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
   }
   .header__icon {
     display: none;
@@ -54,12 +65,7 @@
     text-align: left;
     font-size: 1rem;
   }
-  .bio--first {
-    display: inline;
-  }
-  .bio--second {
-    display: inline;
-  }
+
   /*
    * Nav
    */
@@ -131,10 +137,6 @@
     font-size: 2.25rem;
     line-height: 2rem;
   }
-
-  .bio--first {
-    display: block;
-  }
 }
 
 @media screen and (min-width: 865px) and (max-width: 995px) {
@@ -142,8 +144,12 @@
     font-size: 2.5rem;
     line-height: 2.2rem;
   }
+}
 
-  .bio--first {
-    display: block;
+@media screen and (min-width: 1045px) {
+
+  .bio {
+    display: inline;
   }
+
 }
